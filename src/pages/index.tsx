@@ -25,8 +25,6 @@ export default function SignIn() {
   }
   // const handleSignIn: SubmitHandler<SignInFormData> = async (values) => {
   //   await new Promise(resolve => setTimeout(resolve, 2000));
-
-  //   console.log(values);
   // }
 
   return (
@@ -48,7 +46,6 @@ export default function SignIn() {
       >
         <Stack spacing="4">
           <Input
-            // name='email'
             type="email"
             label="E-mail"
             error={errors.email}
@@ -56,7 +53,6 @@ export default function SignIn() {
           />
 
           <Input
-            // name='password'
             type="password"
             label="Senha"
             error={errors.password}
@@ -70,7 +66,6 @@ export default function SignIn() {
           colorScheme="pink"
           size="lg"
           isLoading={isSubmitting}
-          // isLoading={formState.isSubmitting}
         >
           Entrar
         </Button>

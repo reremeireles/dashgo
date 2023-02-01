@@ -43,7 +43,6 @@ export function makeServer() {
       this.timing = 750;
 
       this.get('/users', function (schema, request) {
-        console.log('oi')
         const { page = 1, per_page = 10 } = request.queryParams
 
         const total = schema.all('user').length

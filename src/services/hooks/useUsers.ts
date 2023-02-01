@@ -23,8 +23,6 @@ export async function getUsers(page: number): Promise<GetUsersResponse> {
         }
     })
 
-    console.log('success' + ++countSuccess)
-
   const totalCount = Number(headers['x-total-count'])
 
     const users: User[] = data.users.map((user: { id: any; name: any; email: any; createdAt: string | number | Date; }) => {
@@ -45,8 +43,6 @@ export async function getUsers(page: number): Promise<GetUsersResponse> {
     totalCount,
   };
   } catch (error) {
-
-    console.log('error' + ++countError)
     return {} as GetUsersResponse;
   }
 }
