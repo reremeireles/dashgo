@@ -8,8 +8,8 @@ Desenvolvimento de uma aplicação responsiva utilizando NextJS. O Dashgo é uma
 
   - página de login com validações nos campos de preenchimento,
   - página Home que exibe um header, uma sidebar e gráficos gerados pela biblioteca ApexCharts,
-  - a página de listagem de usuários provida pela biblioteca FakerJS que gera dados em massa de usuários,.
-  - a página com formulário de cadastro de novos usuários construída através do react-hook-form com validações em cada campo do formulário.
+  - página de listagem de usuários provida pela biblioteca FakerJS que gera dados em massa de usuários,
+  - página com formulário de cadastro de novos usuários construída através do react-hook-form com validações em cada campo do formulário.
   
 #### Acesse o deploy do projeto:
 
